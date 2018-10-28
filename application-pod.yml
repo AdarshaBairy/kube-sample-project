@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: user-input
-      image: adarsha/kub_demo_app
+      image: adarsha/kub_demo_app:1.0
       ports:
         - containerPort: 8080

@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: mysqldb
-      image: adarsha/kub_demo_mysqldb
+      image: adarsha/kub_demo_mysqldb:1.0
       ports:
         - containerPort: 3306

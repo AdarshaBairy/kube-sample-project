@@ -8,8 +8,8 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - port: 8080
-      targetPort: 8080
-    selector:
-      name: user-input-pod
-      app: user-login-app
+  - port: 8080
+    targetPort: 8080
+  selector:
+    name: user-input-pod
+    app: user-login-app
