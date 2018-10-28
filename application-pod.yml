@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: user-input-pod
+  name: user-input
   labels:
     name: user-input-pod
     app: user-login-app
 spec:
   containers:
-    - name: user-input
-      image: adarsha/kub_demo_app:1.0
+    - name: demo-app
+      image: adarsha/kub_demo_app:3.0
       ports:
         - containerPort: 8080
